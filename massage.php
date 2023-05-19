@@ -12,8 +12,8 @@ echo $name;
 }
 ?>
 
-<body>
 <html>
+<body>
   
 <form action="Demo.php" method="post">
 The Name: <input type="text" name="Name"><br>
