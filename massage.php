@@ -1,6 +1,17 @@
 
 <!DOCTYPE html>
 
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+$name = htmlspecialchars($_REQUEST['sname']);
+if (empty($name)) {
+echo "Empty Name";
+} else {
+echo $name;
+}
+}
+?>
+
 <body>
 <html>
   
