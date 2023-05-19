@@ -1,3 +1,9 @@
+
+<!DOCTYPE html>
+
+<body>
+<html>
+
 <?php
 echo("Address: " . $_POST['Add'] . "<br />\\n");
 
@@ -11,5 +17,7 @@ echo("Address: " . $_POST['Add'] . "<br />\\n");
 “reply”: “Hi, we have received your request, thanks for contacting”
 }
 
-
 ?>
+  
+</body>
+</html>
