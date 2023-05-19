@@ -1,6 +1,5 @@
 <?php
 echo("Address: " . $_POST['Add'] . "<br />\\n");
-echo("City " . $_POST[‘City'] . "<br />\\n");
 
 {
 “app”: “Name of the incoming message app”,
