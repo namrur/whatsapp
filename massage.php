@@ -12,13 +12,6 @@ echo $name;
 }
 ?>
 
-<html>
-<body>
-  
-<form action="Demo.php" method="post">
-The Name: <input type="text" name="Name"><br>
-The E-mail: <input type="text" name="Email"><br>
-<input type="submit">
 
 <?php
 echo("Address: " . $_POST['Add'] . "<br />\\n");
@@ -34,6 +27,10 @@ echo("Address: " . $_POST['Add'] . "<br />\\n");
 }
 
 ?>
+  
+<html>
+<body>
+   
   
 </body>
 </html>
